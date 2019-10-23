@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomViewAnimationsActivity">
+
+    <com.example.animations.financeprogressview.FinanceProgressView
+        android:id="@+id/financeProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/defaultMargin"
+        android:layout_gravity="center"
+        tools:progress="45" />
+</FrameLayout>
