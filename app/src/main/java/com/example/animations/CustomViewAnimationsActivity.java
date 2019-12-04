@@ -41,7 +41,7 @@ public class CustomViewAnimationsActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        // mAnimator.end();
+        mAnimator.end();
     }
 
 }

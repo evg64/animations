@@ -6,5 +6,5 @@
     android:repeatCount="infinite"
     android:repeatMode="reverse"
     android:valueFrom="10"
-    android:valueTo="70"
+    android:valueTo="71"
     android:valueType="intType" />

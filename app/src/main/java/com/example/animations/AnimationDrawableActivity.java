@@ -16,7 +16,6 @@ public class AnimationDrawableActivity extends AppCompatActivity {
         setContentView(R.layout.activity_animation_drawable);
         ImageView horseImageView = findViewById(R.id.horseImageView);
         mDrawable = (AnimationDrawable) horseImageView.getDrawable();
-        horseImageView.post(() -> mDrawable.start());
     }
 
     @Override
