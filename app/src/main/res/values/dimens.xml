@@ -5,4 +5,7 @@
     <dimen name="defaultStrokeWidth">16dp</dimen>
     <dimen name="paddingMedium">16dp</dimen>
     <dimen name="defaultMargin">20dp</dimen>
+    <dimen name="marginOutside">0dp</dimen>
+    <dimen name="imageHeight">200dp</dimen>
+    <dimen name="imageSize">200dp</dimen>
 </resources>

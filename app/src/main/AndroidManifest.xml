@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.animations"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.animations">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".CustomViewAnimationsActivity"></activity>
+        <activity android:name=".TransitionAnimationsActivity"></activity>
+        <activity android:name=".SharedElementAnimationsActivity" />
+        <activity android:name=".SceneAnimationActivity" />
+        <activity android:name=".CustomViewAnimationsActivity" />
         <activity android:name=".ValueAnimationsActivity" />
         <activity android:name=".ObjectAnimationsActivity" />
         <activity android:name=".ViewAnimationsActivity" />
